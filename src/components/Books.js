@@ -18,6 +18,7 @@ class Books extends Component {
 };
 
 const mapStateToProps = state => {
+  debugger
   return { books: state.books }
 }
 
